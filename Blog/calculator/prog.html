@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset ="utf-8">
+	 <link rel='stylesheet' href='calc.css' type="text/css">
+     <script src="jquery-3.1.1.min (1).js"></script>
+      <script type='text/javascript' src='multiplyAdd.js'></script>
+	
+  </head>
+   
+  <body>
+
+  <h3> Калькулятор для расчета количества обоев<br> (в рулонах):</h3>
+   <div class="paper clearfix">
+    <div class="calculator left">
+ <table>
+   <tr>
+       <td><label for="height">Высота стен</label></td>
+       <td> <input id="height" type="number" name="data"></td>
+  </tr> 
+  <tr>
+       <td><label for="wall1">Длина первой стены</label></td>
+       <td><input id="wall1" type="number"name="data"></td>
+     </tr> 
+   <tr>
+       <td> <label for="wall2">Длина второй стены</label></td>
+       <td> <input id="wall2" type="number"name="data"></td>
+     </tr> 
+   <tr>
+       <td><label for="wall3">Длина третьей стены</label></td>
+       <td> <input id="wall3" type="number"name="data"></td>
+     </tr> 
+	  </table>
+	   <!--<table>
+	 <tr>
+      <td> <label for="winHeight">Высота стены над окном</label></td>
+      <td> <input id="winHeight" type="number"name="data"></td>
+     </tr> 
+   <tr>
+     <td> <label for="winAbove">Длина стены над окном</label></td>
+     <td> <input id="winAbove" type="number"name="data"></td>
+   </tr> 
+   <tr>   
+     <td> <label for="HeightUnder">Высота стены под окном</label></td>
+      <td> <input id="HeightUnder" type="number" name="data"></td>
+	 </tr>  
+    </table>-->
+  
+   </div>
+   <div class="calculator right">
+   <table>
+   <tr>
+       <td><label for="wall4">Длина четвертой стены</label></td>
+       <td><input id="wall4" type="number"name="data"></td>
+     </tr> 
+   <tr>
+     <td> <label for="length">Длина рулона</label></td>
+     <td> <input id="length" type="number" name="data"></td>
+  </tr> 
+   <tr>
+     <td>  <label for="width">Ширина рулона </label></td>
+     <td><input id="width" type="number" name="data"></td>
+     </tr> 
+   <tr>
+      <td><label for="repeat">Длина узора обоев</label></td>
+      <td> <input id="repeat" type="number" name="data"></td>
+   </tr> 
+    </table>
+	  <!--
+     <td> <label for="winUnder">Длина стены под окном</label></td>
+     <td> <input id="winUnder" type="number" name="data"></td>
+  </tr>
+   <tr>
+     <td>  <label for="doorHeight">Высота стены над дверью</label></td>
+     <td><input id="doorHeight" type="number" name="data"></td>
+     </tr> 
+	 <tr>
+     <td><label for="doorAbove">Длина стены над дверью</label></td>
+     <td><input id="doorAbove" type="number" name="data"></td>
+  </tr> 
+    </table>-->	
+	 </div>
+	 <div class="result">
+	  <table class="calc">	
+   <tr>
+   
+       <td> <button id="calk">Посчитать</button></td>
+	   
+	   <td id="arezult"></td>
+	   
+	   <td> <button  id="reset" type="reset">Очистить</button></td>
+	   
+	</tr>	 
+	 </table>	
+	</div>
+	 </div>
+	 
+  
+  </div>
+  </body>
+
+
+
+
+</html>
